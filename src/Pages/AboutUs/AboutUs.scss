@@ -1,0 +1,131 @@
+.gradient-container {
+  background: linear-gradient(
+    102.67deg,
+    rgba(255, 11, 37, 0.4788) 0.43%,
+    rgba(62, 125, 166, 0.7524) 100%
+  );
+  width: 100vw;
+  padding: 20px 0 20px 0;
+  .title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 84px;
+    color: white;
+  }
+  .subtitle {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 42px;
+    line-height: 42px;
+    text-align: center;
+    color: white;
+  }
+}
+.team-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .title {
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: 500;
+    margin: 0 0 30px 0;
+  }
+  .team-image {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 45px;
+    figure {
+      margin: 0;
+      font-family: Roboto;
+      font-weight: 300;
+      font-size: 30px;
+      text-align: center;
+    }
+  }
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .title {
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 85px;
+    margin: 20px 0 0 0;
+  }
+  .subtitle {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 85px;
+    margin: 0;
+  }
+  .final-text {
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-left: 125px;
+  }
+}
+.about-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 40px;
+  .image {
+    width: 615px;
+    height: 300px;
+    background-color: #c4c4c4;
+  }
+  .text-container {
+    width: 615px;
+    margin-left: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-right: 14px;
+    .title {
+      font-family: Roboto;
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 85px;
+      margin: 0;
+    }
+    .subtitle {
+      font-family: Roboto;
+      font-size: 28px;
+      font-weight: 300;
+      line-height: 85px;
+      margin: 0;
+    }
+    p {
+      font-size: 24px;
+    }
+  }
+}
+.text,
+.final-text {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 40px;
+  margin: 27px 0 0 0;
+  text-align: justify;
+}
+
+.text-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
